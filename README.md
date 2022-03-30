@@ -1,6 +1,6 @@
 # Mellow
 
-  Mellow is a task tracker that helps users to easily manage tickets and daily to-do's by category and urgency.
+  Mellow is a task tracker that can help its users to easily manage tickets and daily to-do's by category and urgency.
   It also allows pull down of statistical analysis of the cycle upon the user configuration.
 
 ## Installation
