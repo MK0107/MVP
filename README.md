@@ -1,8 +1,6 @@
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/87378829/161329994-5b752b5f-8790-4c80-8a4a-040edcf34a41.gif)
 
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/87378829/161330358-34597612-8e5c-430f-a244-d64f8feb4730.gif)
-
 
 # Mellow
 
