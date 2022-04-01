@@ -1,3 +1,5 @@
+https://user-images.githubusercontent.com/87378829/161327780-85d9a179-fbb7-4570-943d-c7d30a82fa40.mp4
+
 # Mellow
 
   Mellow is a task tracker that can help its users easily manage tickets and daily todo's by category and urgency.
