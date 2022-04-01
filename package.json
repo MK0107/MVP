@@ -1,0 +1,40 @@
+{
+  "name": "mvp",
+  "version": "0.1.0",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "babel": "^6.23.0",
+    "bootstrap": "^5.1.3",
+    "eslint": "^8.11.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.1",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "source-map-loader": "^1.0.0",
+    "victory": "^36.3.1",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.70.0"
+  },
+  "scripts": {
+    "express-dev": "nodemon ./src/server/index.js",
+    "react-dev": "webpack --config ./webpack.config.js -w",
+    "postgres-init": "psql --u mk -d mellow -f ./src/server/database/schema.sql"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.3",
+    "webpack-cli": "^4.9.2"
+  }
+}

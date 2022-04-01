@@ -1,0 +1,160 @@
+html,
+body {
+  max-height: 100%;
+}
+
+#app, .contained-modal-title-vcenter {
+  background-image: linear-gradient(to right top, #e77a1c, #ee930d, #f2ad00, #f1c800, #ede216);
+  /* background: url('./background.png') no-repeat center fixed; */
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-content {
+  background-image: linear-gradient(to right top, #e77a1c, #ee930d, #f2ad00, #f1c800, #ede216);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.projects {
+  text-align: left;
+}
+
+#fe2 {
+  float: center;
+  text-align: center;
+  width: 300px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.table-dark {
+  background-image: linear-gradient(to right top, #e77a1c, #ee930d, #f2ad00, #f1c800, #ede216);
+  --bs-table-bg: #e77a1c;
+  --bs-table-striped-bg: #ee930d;
+  --bs-table-striped-color: #e77a1c;
+  --bs-table-active-bg: #ee930d;
+  --bs-table-active-color: black;
+  --bs-table-hover-bg: #e77a1c;
+  --bs-table-hover-color: #e77a1c;
+  font-size: smaller;
+  font-weight: 200;
+  border-color: #e77a1c;
+}
+
+.messages {
+  text-align: center;
+  place-items: center;
+  position: center;
+}
+
+.container {
+  padding: 150px;
+  text-align: center;
+  display: grid;
+	place-items: center
+}
+
+#floatingTextarea {
+  width: 300px;
+}
+
+.haha {
+  margin-top: -100px;
+  padding: 100px;
+  text-align: center;
+  /* display: grid;
+	place-items: center */
+}
+
+.text-center {
+  display: flex;
+  margin-top: -80px;
+  margin-bottom: 80px;
+}
+
+.pies {
+  display: flex;
+  margin-left: 180px;
+  margin-top: 50px;
+}
+
+.button13 {
+  float: right;
+}
+
+.button12 {
+  float: right;
+  margin: 5px;
+  color: black;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.navbar-toggler, .navbar-collapse {
+  text-align: right;
+  margin-right: 40px;
+}
+
+.navbar-light .navbar-brand {
+  font-size: xxx-large;
+  font-family: monospace;
+  font-weight: bolder;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+.form3, .form4, #fe2, .mb-4 {
+  margin: 3px;
+  /* float: center;
+  text-align: center;
+  align-content: center; */
+}
+
+#text {
+  font-family: monospace;
+  font-weight: 600;
+  color: black;
+}
+
+.form-floating, #floatingTextarea {
+  float: center;
+  align-content: space-evenly;
+  justify-content: space-around;
+}
+
+.btn-danger {
+  font-family: monospace;
+  font-weight: 600;
+  color: black;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn {
+  margin: 3px;
+  color: black;
+}
+
+.project_entry {
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.yoyo {
+  display: inline-block;
+  margin: 1px;
+}
